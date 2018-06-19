@@ -178,10 +178,10 @@
 
        /* Load More Portfolio */	
 	   	
-        $("div.portfolio").slice(0, 2).show();
+        $("div.portfolio").slice(0, 10).show();
           $("#load-more-portfolio").on('click', function (e) {
              e.preventDefault();
-             $("div.portfolio:hidden").slice(0, 1).slideDown(300);
+             $("div.portfolio:hidden").slice(0, 10).slideDown(300);
              if ($("div.portfolio:hidden").length == 0) {
              $('#portfolio-end-message').html('<div class="end">End</div>').fadeIn(800);
              $("#load-more-portfolio").fadeOut(100);
