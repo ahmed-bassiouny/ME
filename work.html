@@ -1,609 +1,1283 @@
-﻿<!DOCTYPE html>
+
+<!doctype html>
 <html lang="en">
-
-<head>
-
-  <!-- Meta Tag -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-  <!-- SEO -->
-  <meta name="description" content="150 words">
-  <meta name="author" content="ahmed Bassiouny">
-  <meta name="url" content="https://ahmed-bassiouny.github.io/portfolio/">
-  <meta name="copyright" content="Ahmed Bassiouny">
-  <meta name="robots" content="index,follow">
-
-
-  <title>Portfolio</title>
-
-  <!-- All CSS Plugins -->
-  <link rel="stylesheet" type="text/css" href="css/plugin.css">
-
-  <!-- Main CSS Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
-  <!-- Google Web Fonts  -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
-
-
-  <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-	   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-	   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-
-</head>
-
-<body>
-
-
-
-  <!-- Preloader Start -->
-  <div class="preloader">
-    <div class="rounder"></div>
-  </div>
-  <!-- Preloader End -->
-
-
-
-
-  <div id="main">
-    <div class="container">
-      <div class="row">
-
-
-
-       <!-- About Me (Left Sidebar) Start -->
-       <div class="col-md-3">
-         <div class="about-fixed">
-
-           <div class="my-pic">
-            <img src="images/pic/my-pic.png" alt="">
-            <a href="javascript:void(0)" class="collapsed" data-target="#menu" data-toggle="collapse"><i class="icon-menu menu"></i></a>
-            <div id="menu" class="collapse">
-             <ul class="menu-link">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="work.html">Work</a></li>
-               <li><a href="contact.html">Contact</a></li>
-             </ul>
-           </div>
-         </div>
-
-
-
-         <div class="my-detail">
-
-          <div class="white-spacing">
-            <h1>Ahmed Bassiouny</h1>
-            <span>Android Developer</span>
-            <br/><span>01273144337</span>
-          </div> 
-
-          <ul class="social-icon">
-            <li><a href="https://www.facebook.com/Ebnbasuony" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/ahmed-bassiouny-56b123144/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
-            <!--                           <li><a href="https://github.com/ahmed-bassiouny" target="_blank" class="github"><i class="fa fa-github"></i></a></li> -->
-          </ul>
-
-        </div>
-      </div>
-    </div>
-    <!-- About Me (Left Sidebar) End -->
-
-
-
-
-
-    <!-- Portfolio (Right Sidebar) Start -->
-    <div class="col-md-9">
-      <div class="col-md-12 page-body">
-       <div class="row">
-
-
-        <div class="sub-title">
-         <h2>My Portfolio</h2>
-         <a href="contact.html"><i class="icon-envelope"></i></a>
-       </div>
-
-
-       <div class="col-md-12 content-page">
-        <div class="col-md-12 blog-post">
-
-
-          <!-- Intro Start -->
-          <div class="post-title margin-bottom-30">
-            <h1>Let's take a look on <span class="main-color">My Work</span></h1>
-          </div>
-          <!-- Intro End -->
-
-
-
-
-          <!-- Portfolio Start -->
-          <div>
-
-
-           <!-- Portfolio Detail Start -->
-           <div class="row portfolio">
-             <div class="col-sm-6 custom-pad-1">
-
-               <div class="image-carousel">
-                 <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542736763/Me/naql/operation_view_2.jpg" class="img-responsive" alt="">
-                 <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542736763/Me/naql/order_view.jpg" class="img-responsive" alt="">
-                 <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542736762/Me/naql/rating_popup.jpg" class="img-responsive" alt="">
-                 <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542736764/Me/naql/notifications.jpg" class="img-responsive" alt="">
-                 <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542736760/Me/naql/operation_view_1.jpg" class="img-responsive" alt="">
-                 <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542736766/Me/naql/profile_-_my_account.jpg" class="img-responsive" alt="">
-                 <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542736761/Me/naql/Payment_method.jpeg" class="img-responsive" alt="">
-               </div>
-
-             </div>
-
-
-             <div class="col-sm-6 custom-pad-2">
-               <div class="table-responsive">
-                <table class="table table-bordered">
-                 <tbody>
-
-                   <tr>
-                    <td><b>Name</b></td>
-                    <td>Naql</td>
-                  </tr>
-
-                  <tr>
-                    <td><b>Duration</b></td>
-                    <td>40 Days</td>
-                  </tr>
-                </tbody>
-              </table>
-
+    <head>
+        <title>Portfolio </title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="Maha Personal cv/resume template for professional and personal website." />
+        <meta name="keywords" content="creative, cv, designer,  online cv, online resume, powerful portfolio, professional, professional resume, responsive, resume, vcard " />
+        <meta name="developer" content="Md. Siful Islam">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+                
+        <!-- FAV AND ICONS   -->
+        
+        <link rel="shortcut icon" href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/apple-icon.png">
+        <link rel="shortcut icon" sizes="72x72" href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/apple-icon-72x72.png">
+        <link rel="shortcut icon" sizes="114x114" href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/apple-icon-114x114.png  ">
+        
+        <!-- Google Font-->
+        <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+        <!-- Animate CSS-->
+        <link rel="stylesheet" href="assets/plugins/css/animate.css">
+        <!-- Owl Carousel CSS-->
+        <link rel="stylesheet" href="assets/plugins/css/owl.css">
+        <!-- Fancybox-->
+        <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+        
+        <!-- Custom CSS-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+        
+        <!-- Colors -->
+        <link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue">
+        <link rel="stylesheet" href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/css/colors/defauld.css" title="defauld">
+        <link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green">
+        <link rel="alternate stylesheet" href="assets/css/colors/blue-munsell.css" title="blue-munsell">
+        <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange">
+        <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple"> 
+        <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
+        <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
+        
+    </head>
+    <body class="white-vertion black-bg">
+        
+        <!-- Start Loader -->
+        <div class="section-loader">
+            <div class="loader">
+                <div></div>
+                <div></div> 
             </div>
-          </div>
         </div>
-        <!-- Portfolio Detail End -->
-
-
-
-        <!-- Portfolio Detail Start -->
-        <div class="row portfolio">
-         <div class="col-sm-6 custom-pad-1">
-           <div class="image-carousel">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542735049/Me/ferring_2018/1.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542735049/Me/ferring_2018/2.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542735049/Me/ferring_2018/3.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542735049/Me/ferring_2018/4.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542735049/Me/ferring_2018/5.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1542735049/Me/ferring_2018/6.png" class="img-responsive" alt="">
-           </div>
-         </div>
-
-
-         <div class="col-sm-6 custom-pad-2">
-           <div class="table-responsive">
-            <table class="table table-bordered">
-             <tbody>
-
-               <tr>
-                <td><b>Name</b></td>
-                <td>Ferring MEFS</td>
-              </tr>
-
-              <tr>
-                <td><b>Duration</b></td>
-                <td>15 Days</td>
-              </tr>
-
-            </tbody>
-          </table>
-
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Detail End -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <!-- Portfolio Detail Start -->
-        <div class="row portfolio">
-         <div class="col-sm-6 custom-pad-1">
-           <div class="image-carousel">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1543748171/Me/ios_app/1.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1543748171/Me/ios_app/3.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1543748171/Me/ios_app/4.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1543748171/Me/ios_app/5.png" class="img-responsive" alt="">
-             <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1543748171/Me/ios_app/6.png" class="img-responsive" alt="">
-           </div>
-         </div>
-
-
-         <div class="col-sm-6 custom-pad-2">
-           <div class="table-responsive">
-            <table class="table table-bordered">
-             <tbody>
-
-               <tr>
-                <td><b>Name</b></td>
-                <td>E-commerce ios app</td>
-              </tr>
-
-              <tr>
-                <td><b>Duration</b></td>
-                <td>10 Days</td>
-              </tr>
-
-            </tbody>
-          </table>
-
-        </div>
-      </div>
-    </div>
-    <!-- Portfolio Detail End -->
-
-
-
-
-
-
-
-
-
-
-    <!-- Portfolio Start -->
-    <div>
-
-
-     <!-- Portfolio Detail Start -->
-     <div class="row portfolio">
-       <div class="col-sm-6 custom-pad-1">
-
-         <div class="image-carousel">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417580/Me/Waslla/first_3.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417783/Me/Waslla/sign_in_3.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417609/Me/Waslla/home_4.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417725/Me/Waslla/requests_1.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417749/Me/Waslla/request_details_trip_details_1.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417745/Me/Waslla/request_on_map_cancel_1.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417707/Me/Waslla/request_details_driver_feedback_1.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417682/Me/Waslla/profile_feedback_1.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417601/Me/Waslla/request_create_2.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417539/Me/Waslla/profile_about_1.jpg" class="img-responsive" alt="">
-          <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529417556/Me/Waslla/request_details_about_driver_1.jpg" class="img-responsive" alt="">
-        </div>
-
-      </div>
-
-
-      <div class="col-sm-6 custom-pad-2">
-       <div class="table-responsive">
-        <table class="table table-bordered">
-         <tbody>
-
-           <tr>
-            <td><b>Name</b></td>
-            <td>Wasllabank</td>
-          </tr>
-
-          <tr>
-            <td><b>Duration</b></td>
-            <td>20 Days</td>
-          </tr>
-        </tbody>
-      </table>
-
-    </div>
-  </div>
-</div>
-<!-- Portfolio Detail End -->
-
-
-
-<!-- Portfolio Detail Start -->
-<div class="row portfolio">
- <div class="col-sm-6 custom-pad-1">
-   <div class="image-carousel">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415967/Me/Vatrina/1.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/2.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/3.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/4.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/5.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/6.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/7.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/8.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/9.jpg" class="img-responsive" alt="">
-     <img src = "https://res.cloudinary.com/bassiouny/image/upload/v1529415995/Me/Vatrina/10.jpg" class="img-responsive" alt="">
-   </div>
- </div>
-
-
- <div class="col-sm-6 custom-pad-2">
-   <div class="table-responsive">
-    <table class="table table-bordered">
-     <tbody>
-
-       <tr>
-        <td><b>Name</b></td>
-        <td>Vatrina</td>
-      </tr>
-
-      <tr>
-        <td><b>Duration</b></td>
-        <td>15 Days</td>
-      </tr>
-
-
-    </tbody>
-  </table>
-
-</div>
-</div>
-</div>
-<!-- Portfolio Detail End -->
-
-
-
-
-
-
-
-
-
-
-
-<!-- Portfolio Detail Start -->
-<div class="row portfolio">
- <div class="col-sm-6 custom-pad-1">
-   <div class="image-carousel">
-     <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529418256/Me/babiesandbeyond/Sign_in.jpg" class="img-responsive" alt="">
-     <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529418324/Me/babiesandbeyond/Services.jpg" class="img-responsive" alt="">
-     <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529418319/Me/babiesandbeyond/Floating_action.jpg" class="img-responsive" alt="">
-     <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529418322/Me/babiesandbeyond/Messages_-_Popup_menu_chat.jpg" class="img-responsive" alt="">
-     <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529418316/Me/babiesandbeyond/profile.jpg" class="img-responsive" alt="">
-
-   </div>
- </div>
-
-
- <div class="col-sm-6 custom-pad-2">
-   <div class="table-responsive">
-    <table class="table table-bordered">
-     <tbody>
-
-       <tr>
-        <td><b>Name</b></td>
-        <td>Babies & Beyond</td>
-      </tr>
-
-      <tr>
-        <td><b>Duration</b></td>
-        <td>3 Months</td>
-      </tr>
-
-
-
+        <!-- End Loader -->
+        
+        <!--
+        ===================
+           NAVIGATION
+        ===================
+        -->
+        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav" id="mh-header">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon icon"></span>
+                        </button>
+                    
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto ml-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#mh-home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-skills">Skills</a>
+                                </li>                                
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-experience">Experiences</a>
+                                </li>                                
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-portfolio">Portfolio</a>
+                                </li>                               
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#mh-pricing">Pricing</a>
+                                </li> -->
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link" href="#mh-blog">Blog</a>
+                                </li> -->
+                                <li class="nav-item">
+                                   <a class="nav-link" href="#mh-contact">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <!--
+        ===================
+           Home
+        ===================
+        -->
+        <section class="mh-home image-bg home-2-img" id="mh-home">
+            <div class="img-foverlay img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator xs-column-reverse vertical-middle-content home-padding">
+                        <div class="col-sm-6">
+                            <div class="mh-header-info">
+                                <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                    <span>Hello I'm</span>
+                                </div>
+                                
+                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Ahmed Bassiouny</h2>
+                                <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Mobile Developer</h4>
+                                
+                                <ul>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:">ahmedbassiouny26@gmail.com</a></li>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fa fa-phone"></i><a href="callto:">+2 01274030337</a></li>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>Alexandria, Egypt</address></li>
+                                </ul>
+                                
+                                <!-- <ul class="social-icon wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-github"></i></a></li>
+                                    <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                                </ul> -->
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <div class="img-border" style="visibility: hidden">
+                                    <img src="photo.jpg" alt=""  class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           ABOUT
+        ===================
+        -->
+        <section class="mh-about" id="mh-about">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                            <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/ab-img.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-inner">
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hello, I'm an Mobile developer (Android and IOS Native). I will always do my absolut best to meet your needs and deadlines. 
+                                I am able to take the project from inception to production (You think of it and I'll do it).
+                                I also love the challenge of debugging and resolving errors/issues in premade Apps (You can learn so much from working with someone else's code).
+                                I'm a team player, I can also handle working on my own.<br/>
+                                I've recently started working with Flutter too, and I'm determined be a fully fleged Mobile developer withtin the year.</p>
+                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <ul>
+                                    <!-- <li><span>Java</span></li>
+                                    <li><span>html</span></li>
+                                    <li><span>css</span></li>
+                                    <li><span>php</span></li>
+                                    <li><span>wordpress</span></li>
+                                    <li><span>React</span></li>
+                                    <li><span>Javascript</span></li> -->
+                                </ul>
+                            </div>
+                            <a href="https://docs.google.com/document/d/1zYGcuL0VzworGr0JNsZlzR-TSdMPq1WSyMvcEM1I7D8/edit?usp=sharing" target="_blank" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Downlaod CV <i class="fa fa-download"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           SERVICE
+        ===================
+        -->
+        <!--
+        <section class="mh-service">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                        <h2>What I do</h2>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <i class="fa fa-bullseye purple-color"></i>
+                            <h3>UI Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                magna aliquam erat volutpat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <i class="fa fa-code iron-color"></i>
+                            <h3>Web Development</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                magna aliquam erat volutpat.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                            <i class="fa fa-object-ungroup sky-color"></i>
+                            <h3>App Development</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                                sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                magna aliquam erat volutpat.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+        <!--
+        ===================
+          FEATURE PROJECTS
+        ===================
+        -->
+        <!-- <section class="mh-featured-project image-bg featured-img-one">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="section-title col-sm-12">
+                            <h3>Featured Projects</h3>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="mh-single-project-slide-by-side row">
+                                <!-- Project Items -->
+                             <!--     <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/p-2.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Design</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Wrap</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Design & Development</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
+                                                It will fit perfectly for Startup, Web App or any type of Web Services.
+                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
+                                                <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
+                                                    <blockquote>
+                                    					<q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Creative Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Organize Code - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Project Items -->
+                            <!--      <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/p-2.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Design</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Wrap</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Design & Development</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
+                                                It will fit perfectly for Startup, Web App or any type of Web Services.
+                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
+                                                <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
+                                                    <blockquote>
+                                    					<q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Creative Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Organize Code - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Project Items -->
+                              <!--    <div class="col-sm-12 mh-featured-item">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <div class="mh-featured-project-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                                <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/p-2.png" alt="" class="img-fluid">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5">
+                                            <div class="mh-featured-project-content">
+                                                <h4 class="project-category wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Web Design</h4>
+                                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Wrap</h2>
+                                                <span class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">Design & Development</span>
+                                                <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">Stamp is a clean and elegant Multipurpose Landing Page Template. 
+                                                It will fit perfectly for Startup, Web App or any type of Web Services.
+                                                It has 4 background styles with 6 homepage styles. 6 pre-defined color scheme. 
+                                                All variations are organized separately so you can use / customize the template very easily.</p>
+                                                <a href="" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">View Details</a>
+                                                <div class="mh-testimonial mh-project-testimonial wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.9s">
+                                                    <blockquote>
+                                    					<q>Excellent Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Creative Template - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                    				<blockquote>
+                                    					<q>Organize Code - suits my needs perfectly whilst allowing me to learn some new technology first hand.</q>
+                                    					<cite>- Shane Kavanagh</cite>
+                                    				</blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- End: .row -->
+                 <!-- </div>
+            </div>
+        </section>   -->
+        
+        <!--
+        ===================
+           SKILLS
+        ===================
+        -->
+        <section class="mh-skills" id="mh-skills">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="section-title text-center col-sm-12">
+                            <!--<h2>Skills</h2>-->
+                        </div>
+                        <div class="col-sm-12 col-md-8">
+                            <div class="mh-skills-inner">
+                                <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                    <h3>Technical Skills</h3>
+                                    <div class="each-skills">
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Programming Languages : Java , Swift and Flutter</div>
+                                                    <!-- <div class="percentagem-num">86%</div> -->
+                                                </div>
+                                                <!-- <div class="progressBar">
+                                                    <div class="percentagem" style="width: 86%;"></div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Software Architecture (MVC,MVP) </div>
+                                                    <!-- <div class="percentagem-num">46%</div> -->
+                                                </div>
+                                                <!-- <div class="progressBar">
+                                                    <div class="percentagem" style="width: 46%;"></div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Design Patterns and OOP concepts</div>
+                                                    <!-- <div class="percentagem-num">38%</div> -->
+                                                </div>
+                                                <!-- <div class="progressBar">
+                                                    <div class="percentagem" style="width: 38%;"></div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Android Material Design Guidelines.</div>
+                                                    <!-- <div class="percentagem-num">17%</div> -->
+                                                </div>
+                                                <!-- <div class="progressBar">
+                                                    <div class="percentagem" style="width: 17%;"></div>
+                                                </div> -->
+                                            </div>
+                                        </div>                                    
+                                        
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Integrated with Firebase,Facebook,Google, Crashlytics, Google Analytics and so on</div>
+                                                    <!-- <div class="percentagem-num">38%</div> -->
+                                                </div>
+                                                <!-- <div class="progressBar">
+                                                    <div class="percentagem" style="width: 38%;"></div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                            <div class="parcial">
+                                                <div class="info">
+                                                    <div class="nome">Database Design and implementation using SQLite , Realm , Database Room , Core Data</div>
+                                                    <!-- <div class="percentagem-num">17%</div> -->
+                                                </div>
+                                                <!-- <div class="progressBar">
+                                                    <div class="percentagem" style="width: 17%;"></div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="candidatos">
+                                                <div class="parcial">
+                                                    <div class="info">
+                                                        <div class="nome">Version Control such as Git</div>
+                                                        <!-- <div class="percentagem-num">17%</div> -->
+                                                    </div>
+                                                    <!-- <div class="progressBar">
+                                                        <div class="percentagem" style="width: 17%;"></div>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-sm-12 col-md-8">
+                            <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <h3>Professional Skills</h3>
+                                <ul class="mh-professional-progress">
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="95"></div>
+                                        <div class="pr-skill-name">Communication</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="55"></div> 
+                                        <div class="pr-skill-name">Team Work</div>
+                                    </li>
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="86"></div>
+                                        <div class="pr-skill-name">Project Management</div>
+                                    </li> 
+                                    <li>
+                                        <div class="mh-progress mh-progress-circle" data-progress="60"></div>
+                                        <div class="pr-skill-name">Creativity</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           EXPERIENCES
+        ===================
+        -->
+        <section class="mh-experince image-bg featured-img-one" id="mh-experience">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-education">
+                                <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
+                                <div class="mh-education-deatils">
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                        <h4><a>Information Technology Institute (ITI)</a></h4>
+                                        <div class="mh-eduyear">Jan 2017 – Apr 2017</div>
+                                        <p>Mobile Applications Development <br/> Android Track<br/> (Alexandria) </p>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                        <h4>Hack4mobile<a>by TIEC</a></h4>
+                                        <div class="mh-eduyear"></div>
+                                        <p>Intel Ideation Workshop and InnovEgypt ( TIEC Capacity Building Program )</p>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>Faculty of Commerce<a>Alexandria University</a></h4>
+                                        <div class="mh-eduyear">September 2011 – May 2015</div>
+                                        <p>B.Com. Management Information System </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-6">
+                            <div class="mh-work">
+                                 <h3>Work Experience</h3>
+                                <div class="mh-experience-deatils">
+                                       <!-- Education Institutes-->
+                                       <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                            <h4>Mobile Developer <a>HPC group</a></h4>
+                                            <div class="mh-eduyear">May 2019 – Now</div>
+                                            <ul class="work-responsibility">
+                                                <li><i class="fa fa-circle"></i>Android Developer (native)</li>
+                                                <li><i class="fa fa-circle"></i>IOS Developer (native)</li>
+                                            </ul>
+                                        </div> 
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                        <h4>Mobile Developer <a>NtamTech</a></h4>
+                                        <div class="mh-eduyear">Sept 2018 – Apr 2019</div>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Android Developer (native)</li>
+                                            <li><i class="fa fa-circle"></i>IOS Developer (native)</li>
+                                        </ul>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                        <h4>Android Developer <a >The App Concept</a></h4>
+                                        <div class="mh-eduyear">July 2018 - Nov 2018</div>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Android Developer (native)</li>
+                                        </ul>
+                                    </div>                                
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                        <h4>Android Developer <a>NtamTech</a></h4>
+                                        <div class="mh-eduyear"> Oct 2017 – June 2018</div>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Android Developer (native)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                        <h4>Android Developer <a>GermanITLab</a></h4>
+                                        <div class="mh-eduyear"> May 2017 – Oct 2017</div>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Android Developer (native)</li>
+                                        </ul>
+                                    </div>
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                        <h4>Software Developer <a>Egyptian Naval Forces</a></h4>
+                                        <div class="mh-eduyear"> Nov 2015 – Dec 2016</div>
+                                        <ul class="work-responsibility">
+                                            <li><i class="fa fa-circle"></i>Worked in a team of designing, implementation and scaling distributed system for archiving military documents, handling and storing big data Using Java , Create android applications , asp.net (mvc)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>       
+        
+        <!--
+        ===================
+           PORTFOLIO
+        ===================
+        -->
+        <section class="mh-portfolio" id="mh-portfolio">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                        <h3>Recent Portfolio</h3>
+                    </div>
+                    <div class="part col-sm-12">
+                        <div class="portfolio-nav col-sm-12" id="filter-button">
+                            <ul>
+                                <!-- <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
+                                <li data-filter=".user-interface" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Web Design</span></li>
+                                <li data-filter=".branding" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Branding</span></li>
+                                <li data-filter=".mockup" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><span>Mockups</span></li>
+                                <li data-filter=".ui" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><span>Photography</span></li> -->
+                            </ul>
+                        </div>
+                        <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <div class="portfolioContainer row">
+                                    <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                            <figure>
+                                                <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724984/Me/tragm/splash_2.png" >
+                                                <figcaption class="fig-caption">
+                                                    <h5 class="title">TRAGM</h5>
+                                                    <span class="sub-title">Android Application</span>
+                                                    <a data-fancybox data-src="#mh7"></a>
+                                                </figcaption>
+                                            </figure>
+                                        </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                        <img src="assets/rateme.png" >
+                                        <figcaption class="fig-caption">
+                                            <h5 class="title">RATE ME</h5>
+                                            <span class="sub-title">Android Application</span>
+                                            <a data-fancybox data-src="#mh6"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                        <img src="assets/soon.png" >
+                                        <figcaption class="fig-caption">
+                                            <h5 class="title">SOON SALOON</h5>
+                                            <span class="sub-title">Android & IOS Application</span>
+                                            <a data-fancybox data-src="#mh5"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                        <img src="assets/b&b.png" >
+                                        <figcaption class="fig-caption">
+                                            <h5 class="title">BABIES AND BEYOND</h5>
+                                            <span class="sub-title">Android Application</span>
+                                            <a data-fancybox data-src="#mh1"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <figure>
+                                        <img src="assets/w.png">
+                                        <figcaption class="fig-caption">
+                                            <h5 class="title">WASLA BANK</h5>
+                                            <span class="sub-title">Android Application</span>
+                                            <a href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/portfolio/g3.png" data-fancybox data-src="#mh3"></a>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                        <figure>
+                                            <img src="assets/naql.png" alt="img04">
+                                            <figcaption class="fig-caption">
+                                                <h5 class="title">NAQL</h5>
+                                                <span class="sub-title">Android Application</span>
+                                                <a href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/portfolio/g5.png" data-fancybox data-src="#mh2"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                <div class="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/naqlti.png">
+                                            <figcaption class="fig-caption">
+                                                <h5 class="title">NAQLTI</h5>
+                                                <span class="sub-title">Android Application</span>
+                                                <a href="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/portfolio/g3.png" data-fancybox data-src="#mh4"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                               
+                              
+                              
+                            </div> <!-- End: .grid .project-gallery -->
+                        </div> <!-- End: .grid .project-gallery -->
+                    </div> <!-- End: .part -->
+                </div> <!-- End: .row -->
+            </div>
+            <div class="mh-portfolio-modal" id="mh1">
+                <div class="container">
+                    <div class="row mh-portfolio-modal-inner">
+                        <div class="col-sm-5">
+                            <h2>BABIES AND BEYOND</h2>
+                           
+                            <!-- <a href="" class="btn btn-fill">Live Demo</a> -->
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="mh-portfolio-modal-img">
+                                <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530285439/Me/babiesandbeyond/Sign_in.jpg" alt="" class="img-fluid">
+                                <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530285440/Me/babiesandbeyond/Floating_action.jpg" alt="" class="img-fluid">
+                                <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530285439/Me/babiesandbeyond/Services.jpg" alt="" class="img-fluid">
+                                <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530285439/Me/babiesandbeyond/Messages_-_Popup_menu_chat.jpg" alt="" class="img-fluid">
+                                <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530285439/Me/babiesandbeyond/profile.jpg" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mh-portfolio-modal" id="mh2">
+                    <div class="container">
+                        <div class="row mh-portfolio-modal-inner">
+                            <div class="col-sm-5">
+                                <h2>NAQL</h2>
+                               
+                                <!-- <a href="" class="btn btn-fill">Live Demo</a> -->
+                            </div>
+                            <div class="col-sm-5">
+                                <div class="mh-portfolio-modal-img">
+                                    <img src="https://res.cloudinary.com/bassiouny/image/upload/v1542736763/Me/naql/operation_view_2.jpg" alt="" class="img-fluid">
+                                    <img src="https://res.cloudinary.com/bassiouny/image/upload/v1542736760/Me/naql/operation_view_1.jpg" alt="" class="img-fluid">
+                                    <img src="https://res.cloudinary.com/bassiouny/image/upload/v1542736766/Me/naql/profile_-_my_account.jpg" alt="" class="img-fluid">
+                                    <img src="https://res.cloudinary.com/bassiouny/image/upload/v1542736764/Me/naql/notifications.jpg" alt="" class="img-fluid">
+                                    <img src="https://res.cloudinary.com/bassiouny/image/upload/v1542736763/Me/naql/order_view.jpg" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mh-portfolio-modal" id="mh3">
+                        <div class="container">
+                            <div class="row mh-portfolio-modal-inner">
+                                <div class="col-sm-5">
+                                    <h2>WASLA BANK</h2>
+                                   
+                                    <!-- <a href="" class="btn btn-fill">Live Demo</a> -->
+                                </div>
+                                <div class="col-sm-5">
+                                    <div class="mh-portfolio-modal-img">
+                                        <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530284959/Me/Waslla/first_3.jpg" alt="" class="img-fluid">
+                                        <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530284958/Me/Waslla/request_details_driver_feedback_1.jpg" alt="" class="img-fluid">
+                                        <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530284958/Me/Waslla/profile_feedback_1.jpg" alt="" class="img-fluid">
+                                        <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530284958/Me/Waslla/home_4.jpg" alt="" class="img-fluid">
+                                        <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530284953/Me/Waslla/request_on_map_cancel_1.jpg" alt="" class="img-fluid">
+                                        <img src="https://res.cloudinary.com/bassiouny/image/upload/v1530284953/Me/Waslla/requests_1.jpg" alt="" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mh-portfolio-modal" id="mh4">
+                            <div class="container">
+                                <div class="row mh-portfolio-modal-inner">
+                                    <div class="col-sm-5">
+                                        <h2>NAQLTI</h2>
+                                       
+                                        <!-- <a href="" class="btn btn-fill">Live Demo</a> -->
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="mh-portfolio-modal-img">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438514/Me/naqlti/1.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438514/Me/naqlti/2.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438514/Me/naqlti/3.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438514/Me/naqlti/4.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438514/Me/naqlti/5.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438514/Me/naqlti/6.png" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="mh-portfolio-modal" id="mh5">
+                            <div class="container">
+                                <div class="row mh-portfolio-modal-inner">
+                                    <div class="col-sm-5">
+                                        <h2>SOON SALOON</h2>
+                                       
+                                        <!-- <a href="" class="btn btn-fill">Live Demo</a> -->
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="mh-portfolio-modal-img">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724515/Me/soonsaloon/splash-1.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724511/Me/soonsaloon/categories-1.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724515/Me/soonsaloon/service.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724498/Me/soonsaloon/requestsCurrent.png" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mh-portfolio-modal" id="mh6">
+                            <div class="container">
+                                <div class="row mh-portfolio-modal-inner">
+                                    <div class="col-sm-5">
+                                        <h2>RATE ME</h2>
+                                       
+                                        <!-- <a href="" class="btn btn-fill">Live Demo</a> -->
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="mh-portfolio-modal-img">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724757/Me/rate%20me/Sign_up_-_2.jpg" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724750/Me/rate%20me/Home-0.jpg" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724753/Me/rate%20me/Profile.jpg" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724752/Me/rate%20me/Profile_-_Add_Review.jpg" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mh-portfolio-modal" id="mh7">
+                            <div class="container">
+                                <div class="row mh-portfolio-modal-inner">
+                                    <div class="col-sm-5">
+                                        <h2>TRAGM</h2>
+                                       
+                                        <!-- <a href="" class="btn btn-fill">Live Demo</a> -->
+                                    </div>
+                                    <div class="col-sm-5">
+                                        <div class="mh-portfolio-modal-img">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724984/Me/tragm/splash_2.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724977/Me/tragm/category_1.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724976/Me/tragm/all_videos_2.png" alt="" class="img-fluid">
+                                            <img src="https://res.cloudinary.com/bassiouny/image/upload/v1566724983/Me/tragm/one_video_2.png" alt="" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+        
+        <!--
+        ===================
+           QUATES
+        ===================
+        -->
+        <section class="mh-quates image-bg home-2-img" id="mh-contact">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="each-quates col-sm-12 col-md-6">
+                            <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Interested to Work?</h3>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Do you have a project on your mind that you'd like to build, but need someone with technical knowledge to help you out? Or maybe you’re a company that wants someone Responsible to develop an Mobile application and see it through its lifecycle, Someone who possesses a passion for pushing mobile technologies to the limits. I’ve always liked challenges and for me there is nothing more challenging than writing code because it’s always pushing me to learn and try new things.</p>
+                            <a href="#mh-contact1" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!--
+        ===================
+           PRICING
+        ===================
+        
+        <section class="mh-pricing" id="mh-pricing">
+            <div class="">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Pricing Table</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <i class="fa fa-calendar"></i>
+                                <h4>Full-time work</h4>
+                                <p>I am available for full time</p>
+                                <h5>$1500</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>  
+                        </div>                    
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <i class="fa fa-file"></i>
+                                <h4>Fixed Price Project</h4>
+                                <p>I am available for fixed roles</p>
+                                <h5>$500</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>  
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-pricing dark-bg shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <i class="fa fa-hourglass"></i>
+                                <h4>Hourley work</h4>
+                                <p>I am available for Hourley projets</p>
+                                <h5>$50</h5>
+                                <ul>
+                                    <li>Web Development</li>
+                                    <li>Advetising</li>
+                                    <li>Game Development</li>
+                                    <li>Music Writing</li>
+                                </ul>
+                                <a href="" class="btn btn-fill">Hire Me</a>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        -->
+        <!--
+        ===================
+           BLOG
+        ===================
+        <section class="mh-blog image-bg featured-img-two" id="mh-blog">
+            <div class="img-color-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Featured Posts</h3>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                             <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/b-3.png" alt="" class="img-fluid">
+                                <div class="blog-inner">
+                                    <h2><a href="blog-single.html">A life without the daily traffic jams</a></h2>
+                                    <div class="mh-blog-post-info">
+                                        <ul>
+                                            <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                            <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        </ul>
+                                    </div>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <a href="blog-single.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/b-2.png" alt="" class="img-fluid">
+                                <div class="blog-inner">
+                                    <h2><a href="blog-single.html">Proportion are what’s really needed</a></h2>
+                                    <div class="mh-blog-post-info">
+                                        <ul>
+                                            <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                            <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        </ul>
+                                    </div>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <a href="blog-single.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="mh-blog-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                                <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/b-1.png" alt="" class="img-fluid">
+                                <div class="blog-inner">
+                                    <h2><a href="blog-single.html">Mounts of paper work to remember the way</a></h2>
+                                    <div class="mh-blog-post-info">
+                                        <ul>
+                                            <li><strong>Post On</strong><a href="">24.11.19</a></li>
+                                            <li><strong>By</strong><a href="">ThemeSpiders</a></li>
+                                        </ul>
+                                    </div>
+                                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+                                    <a href="blog-single.html">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+    -->
+        <!--
+        ===================
+           Testimonial
+        ===================
+        <section class="mh-testimonial" id="mh-testimonial">
+            <div class="home-v-img">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            <h3>Client Reviews</h3>
+                        </div>
+                        <div class="col-sm-12 wow fadeInUp" id="mh-client-review" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>                    
+                            
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>                    
+                            
+                            <div class="each-client-item">
+                                <div class="mh-client-item dark-bg black-shadow-1">
+                                    <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/c-1.png" alt="" class="img-fluid">
+                                    <p>Absolute wonderful ! I am completely
+                                    blown away.The very best.I was amazed
+                                    at the quality</p>
+                                    <h4>John Mike</h4>
+                                    <span>CEO, Author.Inc</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+        <!--
+        ===================
+           FOOTER 3
+        ===================
+        -->
+        <footer class="mh-footer mh-footer-3" id="mh-contact1">
+            <div class="container-fluid">
+                <div class="row section-separator">
+                    <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                        <h3>Contact Me</h3>
+                    </div>
+                    <div class="map-image image-bg col-sm-12">
+                        <div class="container mt-30">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-6 mh-footer-address">
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item dark-bg shadow-1 media wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                            <div class="each-icon">
+                                                <!-- <i class="fa fa-location-arrow"></i> -->
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Address</h4>
+                                                <address>
+                                                    Alexandria, Egypt 
+                                                    
+                                                </address>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                            <div class="each-icon">
+                                                <!-- <i class="fa fa-envelope-o"></i> -->
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Email</h4>
+                                                <a href="mailto:ahmedbassiouny26@gmail.com">ahmedbassiouny26@gmail.com</a><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 xs-no-padding">
+                                        <div class="mh-address-footer-item media dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                            <div class="each-icon">
+                                                <!-- <i class="fa fa-clock"></i> -->
+                                            </div>
+                                            <div class="each-info media-body">
+                                                <h4>Phone</h4>
+                                                <a href="callto:(+2)-012-74030337">(012)-74030-337</a><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-6 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
+                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-name form-control" id="name" type="text" placeholder="First Name" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <input name="name" class="contact-subject form-control" id="email" type="email" placeholder="Your Email" required>
+                                            </div>
+                
+                                            <div class="col-sm-12">
+                                                <textarea class="contact-message" id="message" rows="6" placeholder="Your Message" required></textarea>
+                                            </div>
+                                            
+                                            <!-- Subject Button -->
+                                            <div class="btn-form col-sm-12">
+                                                <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col-sm-12 mh-copyright wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <div class="text-left text-xs-center">
+                                                <!-- <p>All right reserved Siful Islam @ 2018</p> -->
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <!-- <ul class="social-icon">
+                                                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                                <li><a href=""><i class="fa fa-github"></i></a></li>
+                                                <li><a href=""><i class="fa fa-dribbble"></i></a></li>
+                                            </ul> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!--
+    ==============
+    * JS Files *
+    ==============
+    -->
     
-    </tbody>
-  </table>
-
-</div>
-</div>
-</div>
-<!-- Portfolio Detail End -->
-
-
-
-<!-- Portfolio Detail Start -->
-<div class="row portfolio">
- <div class="col-sm-6 custom-pad-1">
-  <div class="image-carousel">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439108/Me/technisummit/splash_screen.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439106/Me/technisummit/Registeration_screen.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439105/Me/technisummit/photos.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439099/Me/technisummit/pop_up_photo.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439091/Me/technisummit/Send_Announcements_2.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439090/Me/technisummit/attendees.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439078/Me/technisummit/popup_edit_info.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439072/Me/technisummit/Agenda_1.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439071/Me/technisummit/My_Profile.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439061/Me/technisummit/location.jpg" class="img-responsive" alt="">
-   <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529439053/Me/technisummit/Create_group.jpg" class="img-responsive" alt="">
- </div>
-</div>
-
-
-<div class="col-sm-6 custom-pad-2">
- <div class="table-responsive">
-  <table class="table table-bordered">
-   <tbody>
-
-     <tr>
-      <td><b>Name</b></td>
-      <td>TechneSummit</td>
-    </tr>
-
-    <tr>
-      <td><b>Duration</b></td>
-      <td>33 Days</td>
-    </tr>
-
-   
-  </tbody>
-</table>
-
-</div>
-</div>
-</div> 
-<!-- Portfolio Detail End -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="assets/plugins/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="assets/plugins/js/validator.min.js"></script>
+    <!-- wow -->
+    <script src="assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="assets/plugins/js/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+    <!-- Map api -->
+    <script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
+    <!-- isotope js-->
+    <script src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/plugins/js/packery-mode.pkgd.js"></script>
+    <!-- Custom Scripts-->
+    <script src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/js/map-init.js"></script>
+    <script src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/js/custom-scripts.js"></script>
 
 
-
-
-<!-- Portfolio Detail Start -->
-<div class="row portfolio">
-  <div class="col-sm-6 custom-pad-1">
-    <div class="image-carousel">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438516/Me/naqlti/1.png" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438516/Me/naqlti/2.png" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438516/Me/naqlti/3.jpeg" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438516/Me/naqlti/4.jpeg" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438516/Me/naqlti/5.png" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438516/Me/naqlti/6.jpeg" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438516/Me/naqlti/7.png" class="img-responsive" alt="">
+    <!-- ****************
+      After neccessary customization/modification, Please minify 
+      JavaScript/jQuery according to http://browserdiet.com/en/ for better performance
+    **************** -->
+    <!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
+    <link rel="stylesheet" href="demo/demo.css">
+    <script type="text/javascript" src="demo/styleswitcher.js"></script>
+    <script type="text/javascript" src="demo/demo.js"></script>
+    <div class="demo-style-switch" id="switch-style">
+        <!-- <a id="toggle-switcher" class="switch-button"><i class="fa fa-snowflake-o fa-spin"></i></a> -->
+        <div class="switched-options">
+            <ul>
+                <li class="mh-demo-styles"> 
+                    <h4>Style One </h4>
+                    <ul>
+                        <li>
+                            <a href="home-one.html"> <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/h1w.png" alt="" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a href="home-one-w.html"> <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/h1.png" alt="" class="img-fluid"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="mh-demo-styles"> 
+                    <h4>Style Two </h4>
+                    <ul>
+                        <li>
+                            <a href="home-two.html"> <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/h2w.png" alt="" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a href="home-two-w.html"> <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/h2.png" alt="" class="img-fluid"></a>
+                        </li>
+                    </ul>
+                </li>                 
+                
+                <li class="mh-demo-styles"> 
+                    <h4>RTl</h4>
+                    <ul>
+                        <li>
+                            <a href="home-rtl.html"> <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/h3w.png" alt="" class="img-fluid"></a>
+                        </li>
+                        <li>
+                            <a href="home-rtl-w.html"> <img src="http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/h3.png" alt="" class="img-fluid"></a>
+                        </li>
+                    </ul>
+                </li>                
+            </ul>
+            <div class="config-title">
+                Colors :
+            </div>
+            <ul class="styles">
+                <li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" title="Blue">
+                    <div class="blue"></div></a>
+                </li>
+                <li><a href="#" onclick="setActiveStyleSheet('purple'); return false;" title="Purple">
+                    <div class="purple"></div></a>
+                </li>
+                <li><a href="#" onclick="setActiveStyleSheet('blue-munsell'); return false;" title="Blue Munsell">
+                    <div class="blue-munsell"></div></a>
+                </li>
+                <li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" title="Orange">
+                    <div class="orange"></div></a>
+                </li>
+                <li><a href="#" onclick="setActiveStyleSheet('slate'); return false;" title="Slate">
+                    <div class="slate"></div></a>
+                </li>
+                <li><a href="#" onclick="setActiveStyleSheet('green'); return false;" title="Green">
+                    <div class="green"></div></a>
+                </li>
+                <li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" title="Yellow">
+                    <div class="yellow"></div></a>
+                </li>
+                <li><a href="#" onclick="setActiveStyleSheet('red'); return false;" title="Red">
+                    <div class="red"></div></a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </div>
-
-
-  <div class="col-sm-6 custom-pad-2">
-    <div class="table-responsive">
-     <table class="table table-bordered">
-      <tbody>
-
-        <tr>
-         <td><b>Name</b></td>
-         <td>Naqalati</td>
-       </tr>
-
-   
-      
-
-   </tbody>
- </table>
-
-</div>
-</div>
-</div> 
-<!-- Portfolio Detail End -->
-
-
-<!-- Portfolio Detail Start -->
-<div class="row portfolio">
-  <div class="col-sm-6 custom-pad-1">
-    <div class="image-carousel">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438626/Me/fara7k/1.png" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438626/Me/fara7k/2.png" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438626/Me/fara7k/3.png" class="img-responsive" alt="">
-      <img src="https://res.cloudinary.com/bassiouny/image/upload/v1529438626/Me/fara7k/4.png" class="img-responsive" alt="">
-    </div>
-  </div>
-
-
-  <div class="col-sm-6 custom-pad-2">
-    <div class="table-responsive">
-     <table class="table table-bordered">
-      <tbody>
-
-        <tr>
-         <td><b>Name</b></td>
-         <td>Fara7k</td>
-       </tr>
-
-       <tr>
-         <td><b>Duration</b></td>
-         <td>13 Days</td>
-       </tr>
-
-       
-   </tbody>
- </table>
-
-</div>
-</div>
-</div> 
-<!-- Portfolio Detail End -->
-
-</div>
-<!-- Portfolio End -->
-
-
-</div>  
-
-                               <!-- <div class="col-md-12 text-center">
-                                 <a href="javascript:void(0)" id="load-more-portfolio" class="load-more-button">Load</a>
-                                 <div id="portfolio-end-message"></div>
-                               </div> -->
-
-                             </div>
-
-                           </div>
-
-
-
-                           <!-- Subscribe Form Start -->
-                        <!-- <div class="col-md-8 col-md-offset-2">
-                           <form id="mc-form" method="post" action="http://uipasta.us14.list-manage.com/subscribe/post?u=854825d502cdc101233c08a21&amp;id=86e84d44b7">
-								
-						  <div class="subscribe-form margin-top-20">
-							 <input id="mc-email" type="email" placeholder="Email Address" class="text-input">
-							  <button class="submit-btn" type="submit">Submit</button>
-								</div>
-                                <p>Subscribe to my weekly newsletter</p>
-								<label for="mc-email" class="mc-label"></label>
-							  </form>
-                             
-             </div> -->
-             <!-- Subscribe Form End -->
-
-
-           </div>
-
-
-
-           <!-- Footer Start -->
-           <div class="col-md-12 page-body margin-top-50 footer">
-            <footer>
-              <ul class="menu-link">
-               <li><a href="index.html">Home</a></li>
-               <li><a href="work.html">Work</a></li>
-               <li><a href="contact.html">Contact</a></li>
-             </ul>
-
-             <p>© Copyright 2018. All rights reserved</p>
-
-
-
-           </footer>
-         </div>
-         <!-- Footer End -->
-
-
-       </div>
-       <!-- Portfolio (Right Sidebar) End -->
-
-     </div>
-   </div>
- </div>
-
-
-
-
-
- <!-- Back to Top Start -->
- <a href="#" class="scroll-to-top"><i class="fa fa-long-arrow-up"></i></a>
- <!-- Back to Top End -->
-
-
- <!-- All Javascript Plugins  -->
- <script type="text/javascript" src="js/jquery.min.js"></script>
- <script type="text/javascript" src="js/plugin.js"></script>
-
- <!-- Main Javascript File  -->
- <script type="text/javascript" src="js/scripts.js"></script>
-
-
 </body>
 </html>
